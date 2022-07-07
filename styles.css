@@ -1,0 +1,365 @@
+<style type="text/css">
+
+.firstPagefooter
+{
+	/*display: flex;
+	width: 100%;
+	height: 10px;
+	bottom: 0;
+	background-color: rgba(255,255,255,0.85);
+	-webkit-box-align: center;
+	text-align: center;
+	border-top: 1px solid rgba(0,0,0,0.15);*/
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(255,255,255,0.85);
+	border-top: 1px solid rgba(0,0,0,0.15);
+	color: #000000;
+	text-align: center;
+	font-size: 10px;
+}
+.rowClass
+{
+	width: 100%;
+}
+.firstPagefooterItem
+{
+
+	display: inline-flex;
+	text-align: center;
+}
+
+.navbar-frontpage
+{
+	background-color: #000000;
+	color: white;
+	padding: 30px 0;
+	margin-bottom: 30px;
+}
+.messageIcon
+{
+	font-size: 20px;
+}
+.notificationIcon
+{
+	font-size: 20px;
+}
+.settingsIcon
+{
+	font-size: 20px;
+}
+.navchat-nav
+{
+	background-color: #000000;
+}
+#homeid:hover,#profileid:hover,#connectionsid:hover,#messagesid:hover,#notificationsid:hover,#navbarDropdownMenuLink:hover
+{
+	color: white;
+}
+.settings-item
+{
+	font-size: 12px;
+}
+hr
+{
+	margin: 0;
+}
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/*.signUpBox
+{
+	width: 475px;
+	right: 230px;
+	position: absolute;
+}*/
+#feedbox
+{
+	padding-top: 90px;
+}
+
+#chatdiv
+{
+	border-left: 1px solid blue;
+	width: 50%;
+	padding-right: 0;
+	padding-top: 60px;
+}
+.cardClass
+{
+	width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px black;
+}
+.profileDetailsClass
+{
+	width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 480px;
+    box-shadow: 0px 0px 5px 0px #5f5454;
+}
+.div1
+{
+	/*background-image: url("images/leashProfileCover.png");
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	/*background-position: center;*/
+}
+.CoverPictureDiv
+{
+	/*background-image: url("images/leashProfileCover.png");*/
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.div2
+{
+	
+	height: 250px;
+
+}
+.profileNav
+{
+	margin-left: 210px;
+	background: #ffffff;
+}
+#navbarNav
+{
+	margin-top: -150px;
+}
+.profilePicture
+{
+	/*margin-top: 167px;*/
+	margin-top: -90px;
+    height: 190px;
+    width: 188px;
+    border: 2px solid grey;
+    border-radius: 51%;
+    background: black;
+    background-image: url(images/defaultDp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 4px;
+
+}
+
+#loginButton
+{
+	width: 75px;
+	background: black;
+	border: 1px solid white;
+}
+#loginButton:hover
+{
+	background: white;
+	color: black;
+	transition-delay: .1s;
+}
+.addCommentButton
+{
+	background: white;
+	border: 1px solid black;
+	color: black;
+	font-size: 14px;
+}
+
+
+#signUpButton
+{
+	width: 100px;
+	margin-left: 170px;
+	background: white;
+	border: 1px solid black;
+	color: black;
+}
+#signUpButton:hover,#postButton:hover,.addCommentButton:hover
+{
+	background: black;
+	color: white;
+	transition-delay: .1s;
+}
+#postButton
+{
+	margin-left: 85%;
+	padding: 6px 27px;
+	background: white;
+	border: 1px solid black;
+	color: black;
+}
+.post
+{
+    /* border: 1px solid grey; */
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 3px black;
+}
+.time
+{
+  color: lightgrey;
+  font-size: 12px;
+}
+#homeRecentPostsId
+{
+	margin:auto;
+	width: 60%;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+/*#uploadFail
+{
+	display: none;
+}*/
+
+img
+{
+	max-height: 100%;
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+.likeCommentFollowClass
+{
+	text-align: center;
+	font-size: 17px;
+}
+.likesLine
+{
+	color: #537aba;
+  	font-size: 15px;
+  	margin-left: 5%;
+}
+#shareSpan
+{
+	margin-left: 55%;
+}
+#profileEditButton
+{
+	/*width: 100px;*/
+	margin-right: 3px;
+    background: white;
+    border: 1px solid white;
+    color: black;
+}
+#profileMessageButton,#profileConnectionsButton,#profileConnectButton
+{
+	/*width: 133px;*/
+	margin-right: 4px;
+    background: white;
+    border: 1px solid black;
+    color: black;
+}
+/*#profileMessageButton,#profileConnectionsButton,#profileConnectButton
+{
+	border: 1px solid black;
+	margin-right: 4px;
+	border-radius: 5%;
+}*/
+#profileAboutButton
+{
+	background: white;
+    border: 1px solid black;
+    color: black;
+}
+.profileName
+{
+	margin-top: -14px;
+    margin-left: 4px;
+    font-size: 24px;
+}
+.profileUsername
+{
+	margin-left: 4px;
+	font-size: 16px;
+}
+.profileSmallDetails
+{
+	margin-left: 4px;
+	font-size: 16px;
+}
+.profileCountry
+{
+	margin-left: 4px;
+	font-size: 16px;
+}
+.myPostsProfileButtonsDiv
+{
+	margin: auto;
+	width: 80%;
+}
+#myPostsButton,#myPostsButton:hover
+{
+	width: 50%;
+	background: black;
+	color: white;
+}
+#sharedPostsButton,#sharedPostsButton:hover
+{
+	width: 49%;
+	background: white;
+	color:black;
+	border: 1px solid white;
+}
+.myPostsDiv
+{
+	margin-top: 25px;
+
+}
+.SharedPostsDiv
+{
+	margin-top: 25px;
+	/*visibility: hidden;*/
+	display: none;
+}
+#messagesConnectionsList
+{
+	margin-top: 50px;
+}
+.wholecomment
+{
+	margin-top: 5px;
+}
+.commentArea
+{
+	width: 100%;
+}
+.commentTextarea
+{
+	width: 100%;
+	    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.oneComment
+{
+	background: #e3e4e6;
+    margin-top: 5px;
+    padding-left: 15px;
+    width: 95%;
+    margin-left: 14px;
+    border-radius: 30px 30px 30px;
+}
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+	background: #f7f7f7;
+}
+
+
+
+</style>
